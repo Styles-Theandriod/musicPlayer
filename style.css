@@ -14,7 +14,7 @@ body{
 .container {
     position: relative;
     min-width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     padding: 40px 30px 30px;
     border-radius: 20px;
     box-shadow: 25px 25px 75px #00000040, 10px 10px 70px #00000040, 
@@ -85,3 +85,14 @@ body{
     font-size: 1.5em;
     text-transform: uppercase;
 }
+
+.centered{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: span 4;
+    place-items: center;
+    height: 200px;
+    width: 100%;
+    margin-left: 10px;
+}
+

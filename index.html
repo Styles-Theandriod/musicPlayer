@@ -12,11 +12,16 @@
     <div class="container">
         <form action="" class="Player">
             <input type="text" class="screen" readonly>
-            <span class="num"><i class="fa fa-step-backward "></i></span>
-            <span class="num"><i class="fa fa-play"></i></span>
-            <span class="num"><i class="fa fa-forward"></i></span>
-        </form>
+            <!-- <div class="on" style="color: white;">ON</div> -->
+            <div class="centered">
+                <span class="num"><i class="fa fa-step-backward" onclick="backward()"></i></span>
+                <span class="num" onclick="playMusic()"><i class="fa fa-play"></i></span>
+                <span class="num"><i class="fa fa-forward" onclick="forward()"></i></span>
+            </div>
+            </form>
     </div>
+    
+    <audio src="./Commas _ 5starloaded.com.mp3" class="audio"></audio>
 
     <script src="./app.js"></script>
 </body>
